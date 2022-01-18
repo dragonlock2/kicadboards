@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name extra)(type KiCad)(uri ${KIPRJMOD}/extra.pretty)(options "")(descr ""))
+  (lib (name logos)(type KiCad)(uri ${KIPRJMOD}/logos)(options "")(descr ""))
+)
