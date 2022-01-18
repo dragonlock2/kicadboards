@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name stlinkv3mods)(type KiCad)(uri ${KIPRJMOD}/stlinkv3mods.pretty)(options "")(descr ""))
+)
