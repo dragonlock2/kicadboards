@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name BRCF016GWZ)(type Legacy)(uri ${KIPRJMOD}/BRCF016GWZ.lib)(options "")(descr ""))
+)
