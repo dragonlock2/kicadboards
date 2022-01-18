@@ -20,3 +20,7 @@ fp-info-cache
 *.ses
 *.xml
 *.csv
+
+gerber/
+gerber.zip
+bom/
