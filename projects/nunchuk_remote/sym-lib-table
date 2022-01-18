@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name someparts)(type Legacy)(uri ${KIPRJMOD}/someparts.lib)(options "")(descr ""))
+  (lib (name nunchuk_remote-rescue)(type Legacy)(uri ${KIPRJMOD}/nunchuk_remote-rescue.lib)(options "")(descr ""))
+)
