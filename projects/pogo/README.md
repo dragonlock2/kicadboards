@@ -2,6 +2,8 @@
 
 Designed April 2020
 
+https://matthewtran.dev/2020/10/diy-tag-connect-cable/
+
 A bunch of boards to test out making Tag-Connect cables at home.
 
 - pogo/ is the very first attempt at making a cable
