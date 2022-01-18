@@ -1,0 +1,94 @@
+(module slider (layer F.Cu) (tedit 5E9E2FA6)
+  (attr smd)
+  (fp_text reference REF** (at 0 -5.95) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value slider (at 0 -4.65) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd rect (at -19.25 0) (size 1.5 8) (layers F.Cu))
+  (pad 2 smd rect (at -10 0) (size 3 8) (layers F.Cu))
+  (pad 3 smd rect (at 0 0) (size 3 8) (layers F.Cu))
+  (pad 4 smd rect (at 10 0) (size 3 8) (layers F.Cu))
+  (pad 5 smd rect (at 19.25 0) (size 1.5 8) (layers F.Cu))
+  (pad 3 smd custom (at 1.5 0) (size 0.01 0.01) (layers F.Cu)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy 0 -4) (xy 0 0) (xy 6.5 -2)) (width 0))
+      (gr_poly (pts
+         (xy 0 0) (xy 0 4) (xy 6.5 2)) (width 0))
+    ))
+  (pad 4 smd custom (at 11.5 0) (size 0.01 0.01) (layers F.Cu)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy 0 -4) (xy 0 0) (xy 6.5 -2)) (width 0))
+      (gr_poly (pts
+         (xy 0 0) (xy 0 4) (xy 6.5 2)) (width 0))
+    ))
+  (pad 2 smd custom (at -8.5 0) (size 0.01 0.01) (layers F.Cu)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy 0 -4) (xy 0 0) (xy 6.5 -2)) (width 0))
+      (gr_poly (pts
+         (xy 0 0) (xy 0 4) (xy 6.5 2)) (width 0))
+    ))
+  (pad 1 smd custom (at -18.5 0) (size 0.01 0.01) (layers F.Cu)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy 0 -4) (xy 0 0) (xy 6.5 -2)) (width 0))
+      (gr_poly (pts
+         (xy 0 0) (xy 0 4) (xy 6.5 2)) (width 0))
+    ))
+  (pad 3 smd custom (at -1.5 0) (size 0.01 0.01) (layers F.Cu)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy 0 -2) (xy 0 2) (xy -6.5 0)) (width 0))
+      (gr_poly (pts
+         (xy -6.5 -4) (xy 0 -4) (xy 0 -1.999999)) (width 0))
+      (gr_poly (pts
+         (xy -6.5 4) (xy 0 1.999999) (xy 0 4)) (width 0))
+    ))
+  (pad 2 smd custom (at -11.5 0) (size 0.01 0.01) (layers F.Cu)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy 0 -2) (xy 0 2) (xy -6.5 0)) (width 0))
+      (gr_poly (pts
+         (xy -6.5 -4) (xy 0 -4) (xy 0 -1.999999)) (width 0))
+      (gr_poly (pts
+         (xy -6.5 4) (xy 0 1.999999) (xy 0 4)) (width 0))
+    ))
+  (pad 4 smd custom (at 8.5 0) (size 0.01 0.01) (layers F.Cu)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy 0 -2) (xy 0 2) (xy -6.5 0)) (width 0))
+      (gr_poly (pts
+         (xy -6.5 -4) (xy 0 -4) (xy 0 -1.999999)) (width 0))
+      (gr_poly (pts
+         (xy -6.5 4) (xy 0 1.999999) (xy 0 4)) (width 0))
+    ))
+  (pad 5 smd custom (at 18.5 0) (size 0.01 0.01) (layers F.Cu)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy 0 -2) (xy 0 2) (xy -6.5 0)) (width 0))
+      (gr_poly (pts
+         (xy -6.5 -4) (xy 0 -4) (xy 0 -1.999999)) (width 0))
+      (gr_poly (pts
+         (xy -6.5 4) (xy 0 1.999999) (xy 0 4)) (width 0))
+    ))
+)
