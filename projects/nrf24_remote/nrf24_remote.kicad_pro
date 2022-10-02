@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 0.6,
+          "width": 0.55
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.15239999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -55,7 +55,13 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|144550000|131375000|2b76d167-c534-42b2-a24b-c5b93f7eb302|6d94715f-79f8-4925-a188-767b66cd977b",
+        "clearance|144550000|131375000|5a6f4889-0303-4e87-aede-b808e618a485|6d94715f-79f8-4925-a188-767b66cd977b",
+        "clearance|146200000|131125000|427e0f88-d5dd-4811-95fb-ffb1d155f985|6d94715f-79f8-4925-a188-767b66cd977b",
+        "clearance|146650000|131125000|043bbb04-99d1-461f-9498-b10e6a33db29|6d94715f-79f8-4925-a188-767b66cd977b",
+        "silk_overlap|140015000|96800000|097b6c81-6061-4471-b59b-b3754f743480|95dc5c19-6590-4fa6-8228-26571d3a4aab"
+      ],
       "meta": {
         "version": 2
       },
@@ -103,7 +109,7 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.15239999999999998,
+        "min_clearance": 0.1397,
         "min_copper_edge_clearance": 0.381,
         "min_hole_clearance": 0.15239999999999998,
         "min_hole_to_hole": 0.15239999999999998,
@@ -137,7 +143,11 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "lib_symbol_issues|2108200|1835150|183dff00-b835-4627-88ec-86ab30c6baa8|00000000-0000-0000-0000-000000000000",
+      "lib_symbol_issues|2628900|1860550|ee29b4fa-f458-46c8-8c67-5529026c801c|00000000-0000-0000-0000-000000000000",
+      "lib_symbol_issues|2698750|1111250|3dfc6b57-f223-4cfd-a95b-67f5177f4649|00000000-0000-0000-0000-000000000000"
+    ],
     "meta": {
       "version": 0
     },
@@ -353,8 +363,8 @@
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.1524,
-        "diff_pair_gap": 0.25,
+        "clearance": 0.1397,
+        "diff_pair_gap": 0.3,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
