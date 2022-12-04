@@ -2003,7 +2003,6 @@
     )
   )
 
-
   (junction (at 119.38 82.55) (diameter 0) (color 0 0 0 0)
     (uuid 05ac74b3-28cd-4125-bfc3-0d14513ef592)
   )
@@ -3378,7 +3377,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8100cbd9-1eb8-4a1b-a0cd-ae989b1c0927)
   )
-  (text "~21.3V/V gain" (at 104.14 207.645 0)
+  (text "~21.3V/V gain\n~300ms startup\n~120Hz HPF" (at 101.6 212.09 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 83f13f37-2467-4b5a-8390-f49fbed3a70e)
   )
@@ -4279,7 +4278,7 @@
     (property "Reference" "C3" (id 0) (at 103.505 198.12 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10u" (id 1) (at 102.87 203.2 90)
+    (property "Value" "1u" (id 1) (at 103.505 203.2 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 104.775 200.66 0)
@@ -6318,7 +6317,7 @@
       (reference "C2") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/3cb73396-04cf-4c62-958e-28943074b6dc"
-      (reference "C3") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C3") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/0570efea-f268-43b8-9595-c2d530b4e620"
       (reference "C4") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
