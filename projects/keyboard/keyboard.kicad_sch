@@ -5656,7 +5656,7 @@
   )
 
   (symbol (lib_id "Device:LED_Small") (at 259.08 46.355 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 7e31264e-6808-4ca9-87ba-e8c681370323)
     (property "Reference" "D5" (at 257.81 42.545 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -6753,7 +6753,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 265.43 46.355 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid e318b11a-1855-492b-b18a-2cdaccee0470)
     (property "Reference" "R16" (at 267.335 42.545 90)
       (effects (font (size 1.27 1.27)) (justify left))

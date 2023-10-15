@@ -1264,22 +1264,27 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0c6e84e2-55fd-42e9-b076-b5e7dbf355fc)
   )
-  (text "assuming TPS61201 is just TPS61200 w/\ninternal divider, can just add resistor from\nVOUT to FB to adjust??"
-    (at 111.76 85.725 0)
+  (text "TPS61201 is just TPS61200 w/ internal\ndivider, can just add resistor from\nVOUT to FB to adjust!"
+    (at 119.38 86.995 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3b5811d3-ac53-4204-8b11-75a6cff7ee13)
+  )
+  (text "empirically, quiescent draw near UVLO on/off region too high\nand in cloudy conditions voltage tapers off around 360mV, removing\nR2 helps turn on even in lower light. now it turns on around 390mV\nfor about ~0.5s. however, after turning off quiescent is quite high\nand charging doesn't resume until dropping to 200mV when presumably\nthe TPS61201 turns fully off."
+    (at 82.55 144.145 0)
+    (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
+    (uuid 679ffb46-0fb3-4b9a-aff8-9418619abc49)
   )
   (text "share C5 w/ U2" (at 241.935 90.17 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 78a9da1e-50c2-4875-899a-496da9038b23)
   )
-  (text "FRAM draws 100uA @ 100kHz\nPIC draws 288uA @ 500kHz\n=> 1.94mW\n=> 2.5s/cycle @ 25% efficiency!"
+  (text "FRAM draws 100uA @ 100kHz\nPIC draws 288uA @ 500kHz\n=> 1.94mW\nadd LEDs => measured 16mW\n"
     (at 198.12 118.11 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cd5492f3-4c9b-4264-8e11-507c15a6424f)
   )
   (text "UVLO falling: 235mV-265mV\nUVLO rising:  330mV-370mV\n\n544mV turn-on @ 370mV worst case (MPP @ 560mV)\n390mV-485mV on-off range @ 265mV,330mV worst case\n=> 19.5mJ delivered before turn-off\n"
-    (at 76.835 125.73 0)
+    (at 82.55 129.54 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e191d700-b59b-40e8-a90b-6d679bab6e9e)
   )
@@ -2435,7 +2440,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 89.535 103.505 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid dad37953-fbe7-4b83-894f-09115ae5b306)
     (property "Reference" "R2" (at 88.265 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
