@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 0.65,
+          "width": 1.05
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -175,7 +175,8 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.254
       ],
       "via_dimensions": [
         {
@@ -195,11 +196,8 @@
   },
   "erc": {
     "erc_exclusions": [
-      "lib_symbol_issues|1447800|1270000|06a7b68e-ce03-4220-862e-46030107dd48|00000000-0000-0000-0000-000000000000|||",
-      "lib_symbol_issues|1447800|711200|cab4db5d-7a59-4868-a230-16040538b2cb|00000000-0000-0000-0000-000000000000|||",
-      "lib_symbol_issues|1447800|990600|adf4eff2-c2ce-4c6f-93f3-03e105a8983a|00000000-0000-0000-0000-000000000000|||",
-      "pin_to_pin|368300|1282700|d9887abd-cc51-42f6-aded-e486d35d0668|1b2ac6c0-5a9d-4fd7-932b-219b6ef1aaf5|/59cc2ad6-09eb-4967-9af2-96d291b52b9b|/59cc2ad6-09eb-4967-9af2-96d291b52b9b|/59cc2ad6-09eb-4967-9af2-96d291b52b9b",
-      "pin_to_pin|444500|1130300|3d154b1a-31ab-4827-9a18-5b556ae814f0|353de986-ec3f-4672-afcf-4402c08e92ab|/59cc2ad6-09eb-4967-9af2-96d291b52b9b|/59cc2ad6-09eb-4967-9af2-96d291b52b9b|/59cc2ad6-09eb-4967-9af2-96d291b52b9b"
+      "pin_to_pin|368300|977900|1b2ac6c0-5a9d-4fd7-932b-219b6ef1aaf5|d9887abd-cc51-42f6-aded-e486d35d0668|/59cc2ad6-09eb-4967-9af2-96d291b52b9b|/59cc2ad6-09eb-4967-9af2-96d291b52b9b|/59cc2ad6-09eb-4967-9af2-96d291b52b9b",
+      "pin_to_pin|444500|825500|353de986-ec3f-4672-afcf-4402c08e92ab|3d154b1a-31ab-4827-9a18-5b556ae814f0|/59cc2ad6-09eb-4967-9af2-96d291b52b9b|/59cc2ad6-09eb-4967-9af2-96d291b52b9b|/59cc2ad6-09eb-4967-9af2-96d291b52b9b"
     ],
     "meta": {
       "version": 0
@@ -423,9 +421,9 @@
       {
         "bus_width": 12,
         "clearance": 0.1524,
-        "diff_pair_gap": 0.25,
+        "diff_pair_gap": 0.1524,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.1524,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
