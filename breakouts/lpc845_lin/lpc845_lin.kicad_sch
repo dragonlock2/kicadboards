@@ -3124,6 +3124,16 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 916fe519-ad20-4383-b3dd-8aa70b9d8e7e)
   )
+  (text "- sharp edges, bad for EMI\n- struggles with <1k pullup and long bus\n- other nodes need to pull close to 0V"
+    (at 295.91 92.71 0)
+    (effects (font (size 1.016 1.016) (color 255 0 0 1)) (justify left bottom))
+    (uuid 9404ae90-4748-4159-b828-1bde25321b24)
+  )
+  (text "- sharp edges, bad for EMI\n- other nodes need to pull close to 0V"
+    (at 281.94 147.32 0)
+    (effects (font (size 1.016 1.016) (color 255 0 0 1)) (justify left bottom))
+    (uuid acf3a770-2489-4b65-961a-e7b0230d4028)
+  )
   (text "usb-uart" (at 107.95 226.06 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid df862f50-5c97-42ac-80c8-134daf53ad7e)
