@@ -1,6 +1,12 @@
 _site
 .DS_Store
 
+## LTSpice
+*.log
+*.raw
+*.fft
+*.net
+
 ## KiCad
 *.000
 *.bak
