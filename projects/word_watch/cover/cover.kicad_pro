@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.65,
-          "width": 1.05
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -59,10 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "lib_footprint_mismatch|143000000|100000000|b6b5eede-19b7-4893-b8f4-aba78511657b|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|155450000|85450000|3f261ba4-760e-4f86-bb4c-9a41ba24104e|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -185,8 +182,7 @@
         }
       ],
       "track_widths": [
-        0.0,
-        0.25
+        0.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -438,10 +434,10 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "ignore",
+      "simulation_model_issue": "error",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -453,7 +449,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "word_watch.kicad_pro",
+    "filename": "cover.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -584,14 +580,6 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
