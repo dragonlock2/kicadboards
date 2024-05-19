@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 0.65,
+          "width": 1.05
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.127
         }
       },
       "diff_pair_dimensions": [
@@ -59,7 +59,14 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "lib_footprint_mismatch|137875000|100000000|f6d3087c-07cf-4c40-9786-b69da3c36989|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|154000000|91750000|73ff1371-3277-4e9a-83dc-1eb04d195a77|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|160250000|106500000|35114ddc-5fe2-4405-b72e-83a0ce2f3f9f|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|176500000|106750000|2dde721d-ec4e-4895-8234-e6153d258249|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|177250000|103000000|9b214583-f273-4726-a0fb-97dc373d7f96|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|195500000|100000000|50988802-fdee-4189-921c-cea914cc6790|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -119,7 +126,7 @@
         "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.127,
-        "min_connection": 0.127,
+        "min_connection": 0.126,
         "min_copper_edge_clearance": 0.381,
         "min_hole_clearance": 0.127,
         "min_hole_to_hole": 0.127,
@@ -182,7 +189,8 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.254
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -457,9 +465,9 @@
       {
         "bus_width": 12,
         "clearance": 0.127,
-        "diff_pair_gap": 0.25,
+        "diff_pair_gap": 0.127,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.127,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
