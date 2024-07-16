@@ -1,0 +1,39 @@
+Thanks to everyone who has helped in some way, reporting problems
+etc. Particular thanks are due to 
+
+ 
+Holger Waechtler <holger@convergence.de> for spotting several bugs. 
+Randall DuCharme <ad5gb@yahoo.com> much help, especially with WxWindows and 
+building Windoze versions.
+"AA1LL / KB1CZP" <aa1ll@email.com> for help with coupled line. 
+"Treibergs, Valts" <treibev@ectinfo.com> for spotting the bug with -s and -S on 2 conductor lines. 
+Patrick Kelsey <kelsey@ieee.org> for help with MPI support. 
+Eric Sosman for help with porting to the Cray-Y-MP
+Miguel Berg for noticing a bug which caused crashes under Windoze XP  
+
+
+****HELP from testers****
+I'm always willing to know of systems on which atlc either passes or fails 
+its tests. This is particularly so of the uncommon platforms, operating
+systems or versions of Linux. I hope I have not forgotten anyone
+in the list below. If so let me know and I'll add you to the list. 
+
+David Anderson GM4JJJ for testing. 
+Steve Thompson G8GSQ for testing and finding a real bug affecting Suse. 
+Bdale Garbee for finding a bug in the way hardware information was displayed.
+Mark testing on his AMD Barton 2800+. 
+Ron Patterson for also finding a bug about hardware information.
+Paul for testing on 'relic' and 'speedy'
+Theo v. Werkhoven for testing on Linux
+Bob Cole for testing on his UnixWare system.
+Tom Cage K5GI for testing on a number of platforms. 
+Daniel Schafer for testing on Gentoo Linux. 
+Oddbjorn Hansen for testing on Suse Linux 
+Tavis Ormandy for testing on Gentoo Linux for Alpha. 
+
+And last, but my no means least, to those dedicated people at 
+http://www.cray-cyber.org/general/start.php
+for providing access to a Cray supercomputer for testing on that. 
+I never thought I'd be able to test atlc on a Cray. 
+
+Dr. David Kirkby, 4th September 2003. 
