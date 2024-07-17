@@ -12,7 +12,7 @@ Schematic PDFs are automatically generated and deployed at [matthewtran.dev/kica
 
 ### diffpair.py
 
-KiCad's calculator doesn't currently include one for a coupled coplanar waveguide with ground ("differential-coplanar" in Altium). Thankfully an open-source solution exists, [atlc](https://atlc.sourceforge.net). Minimal source code for [v4.6.1](https://sourceforge.net/projects/atlc/files/atlc/atlc-4.6.1/) has been added here and the build system has been switched to CMake.
+KiCad's calculator doesn't currently include one for a coupled coplanar waveguide with ground ("differential-coplanar" in Altium). Thankfully an open-source solution exists, [atlc](https://atlc.sourceforge.net). It can solve arbitrary trace shapes, but as a result is quite slow. Minimal source code for [v4.6.1](https://sourceforge.net/projects/atlc/files/atlc/atlc-4.6.1/) has been added here, with the build system switched to CMake.
 
 ```
 cd scripts/external/atlc
