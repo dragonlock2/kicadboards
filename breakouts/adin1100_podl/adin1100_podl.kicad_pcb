@@ -15552,7 +15552,7 @@
 			)
 		)
 		(property "Value" "FerriteBead_Small"
-			(at 0 -1.17 360)
+			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "cc77c400-382a-431a-8672-50384b9098b8")
 			(effects
@@ -15691,7 +15691,7 @@
 			(uuid "4c03880c-a0e2-416b-84e2-7c5436957d53")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "8f2e29d3-7991-4a97-99f5-88ac863020b6")
 			(effects
@@ -31135,6 +31135,18 @@
 				(bold yes)
 			)
 			(justify right bottom)
+		)
+	)
+	(gr_text "-\n+"
+		(at 135.75 100 0)
+		(layer "F.SilkS")
+		(uuid "d64108e5-e90b-4839-b6f2-ce3f4b8bc7d5")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify left)
 		)
 	)
 	(gr_text "adin1100_podl - matt tran"

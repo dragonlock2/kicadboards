@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 0.65,
+          "width": 1.05
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -60,12 +60,7 @@
         }
       ],
       "drc_exclusions": [
-        "hole_clearance|128750000|90850000|3cb5f880-eae9-48e0-98d4-5ca1ff17d43f|6f607bfa-c750-485b-82f8-0a85a9bfa5bd",
-        "hole_clearance|128750000|91650000|3cb5f880-eae9-48e0-98d4-5ca1ff17d43f|eb06f6eb-4850-4e3c-bcc5-c160603e878b",
-        "hole_clearance|134750000|90850000|03e3ea33-c2e8-4ad0-889d-5f9b713a03e4|7aa4e462-2fc2-482d-85f1-5bce12426edb",
-        "hole_clearance|134750000|91650000|03e3ea33-c2e8-4ad0-889d-5f9b713a03e4|37c44ab0-85f6-46b3-8ed3-c91ab69c8906",
-        "lib_footprint_mismatch|156000000|92500000|35f801c1-0020-4c1d-ac6d-5db08520b766|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|190000000|100000000|ab0417e5-3f9c-4203-b4f0-bb0ece411e0e|00000000-0000-0000-0000-000000000000"
+        "lib_footprint_mismatch|141500000|104250000|1e485758-1bda-4c7b-8193-0619b922c06b|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -191,8 +186,7 @@
       ],
       "track_widths": [
         0.0,
-        0.25,
-        0.6
+        0.31
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -224,10 +218,6 @@
         {
           "diameter": 0.0,
           "drill": 0.0
-        },
-        {
-          "diameter": 0.7,
-          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": false,
@@ -463,7 +453,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "adin1100_podl.kicad_pro",
+    "filename": "ncn26010_oaspi.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -473,7 +463,7 @@
         "clearance": 0.1524,
         "diff_pair_gap": 0.1524,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.25,
+        "diff_pair_width": 0.1524,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
