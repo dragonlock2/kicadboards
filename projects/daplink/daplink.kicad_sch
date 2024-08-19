@@ -8812,7 +8812,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "bb6e0a41-08d9-42c8-9990-83fad888f3f6")
 		(property "Reference" "R9"
 			(at 224.79 114.3 0)

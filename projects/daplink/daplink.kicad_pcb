@@ -8726,7 +8726,7 @@
 		(path "/bb6e0a41-08d9-42c8-9990-83fad888f3f6")
 		(sheetname "Root")
 		(sheetfile "daplink.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 0.5225)
 			(end -0.237258 0.5225)

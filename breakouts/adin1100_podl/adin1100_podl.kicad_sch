@@ -10954,7 +10954,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 74.93) (xy 245.11 74.93)
+			(xy 243.84 74.93) (xy 247.65 74.93)
 		)
 		(stroke
 			(width 0)
@@ -11354,7 +11354,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 69.85) (xy 245.11 69.85)
+			(xy 243.84 69.85) (xy 247.65 69.85)
 		)
 		(stroke
 			(width 0)
@@ -12374,7 +12374,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 80.01) (xy 245.11 80.01)
+			(xy 243.84 80.01) (xy 247.65 80.01)
 		)
 		(stroke
 			(width 0)
@@ -13036,7 +13036,7 @@
 		(uuid "0235e250-1a3f-4874-92c2-fd9bd38b5fb1")
 	)
 	(label "led_b"
-		(at 245.11 69.85 0)
+		(at 247.65 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13146,7 +13146,7 @@
 		(uuid "362fd0e6-b61d-44af-ada4-48e430a6ee12")
 	)
 	(label "led_r"
-		(at 245.11 80.01 0)
+		(at 247.65 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13422,7 +13422,7 @@
 		(uuid "a8505385-9703-4bd2-89aa-f48908512e5b")
 	)
 	(label "led_g"
-		(at 245.11 74.93 0)
+		(at 247.65 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13996,7 +13996,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "10k"
 			(at 323.85 170.815 0)
 			(effects
 				(font
@@ -16362,8 +16362,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220"
-			(at 239.395 78.105 90)
+		(property "Value" "10k"
+			(at 243.205 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17622,7 +17622,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "10k"
 			(at 309.88 170.815 0)
 			(effects
 				(font
@@ -19617,7 +19617,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "10k"
 			(at 71.755 179.07 90)
 			(effects
 				(font
@@ -22803,8 +22803,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220"
-			(at 239.395 73.025 90)
+		(property "Value" "10k"
+			(at 243.205 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23290,8 +23290,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220"
-			(at 239.395 67.945 90)
+		(property "Value" "10k"
+			(at 243.205 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26311,7 +26311,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "10k"
 			(at 71.755 182.88 90)
 			(effects
 				(font

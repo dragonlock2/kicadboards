@@ -8833,7 +8833,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "4k7"
 			(at 94.615 149.225 90)
 			(effects
 				(font
@@ -9599,7 +9599,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "4k7"
 			(at 94.615 159.385 90)
 			(effects
 				(font
@@ -11299,7 +11299,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "4k7"
 			(at 249.555 101.6 90)
 			(effects
 				(font
@@ -11368,7 +11368,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "4k7"
 			(at 249.555 97.79 90)
 			(effects
 				(font
@@ -12450,7 +12450,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "4k7"
 			(at 94.615 154.305 90)
 			(effects
 				(font

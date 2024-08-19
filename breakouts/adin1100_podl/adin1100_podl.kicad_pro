@@ -248,7 +248,10 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "lib_symbol_issues|1485900|2133600|13f681bc-d3f4-4f70-94aa-1874eeb29702|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|2781300|660400|8c1fc2e0-e0e7-4300-8d07-ab3198405445|00000000-0000-0000-0000-000000000000|||"
+    ],
     "meta": {
       "version": 0
     },
