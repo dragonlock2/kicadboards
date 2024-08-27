@@ -4,17 +4,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     container:
-      image: kicad/kicad:8.0.0
+      image: kicad/kicad:8.0
       options: --user root
     steps:
       - uses: actions/checkout@v4
         with:
           submodules: recursive
-      - uses: actions/setup-python@v4
+      - uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.12'
       - run: python .github/workflows/pdf.py
-      - uses: actions/upload-pages-artifact@v2
+      - uses: actions/upload-pages-artifact@v3
 
   deploy:
     needs: build
@@ -26,5 +26,4 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - id: deployment
-        uses: actions/deploy-pages@v2
+      - uses: actions/deploy-pages@v4
